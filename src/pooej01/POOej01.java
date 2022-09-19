@@ -14,9 +14,9 @@ import Servicios01.LibroService;
 public class POOej01 {
 
     public static void main(String[] args) {
-        LibroService vs = new LibroService();
-        Libro Libro1 = vs.crearLibro();
-        Libro Libro2 = vs.crearLibro();
+        LibroService ls = new LibroService();
+        Libro Libro1 = ls.crearLibro();
+        Libro Libro2 = ls.crearLibro();
         System.out.println(Libro1);
         System.out.println("------------");
         System.out.println(Libro2);
